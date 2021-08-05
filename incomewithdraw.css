@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+html{
+    width: 100%;
+}
+body {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(45deg, rgb(233,232,228),rgb(244,243,236));
+}
+
+
+.top{
+   position: relative;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+
+
+.content{
+   position: relative;
+}
+
+
+.no-padding{
+    margin:0!important;
+    padding:0!important;
+}
+
+.container {
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #212932;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   position: relative;
+}
+
+
+
+.income{
+    background-color: #FEFF00;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+
+.bottom{
+   position: relative;
+    background-color: black;
+    z-index: 5;
+    padding: 2px 10px;
+    margin-top: 3vh;
+}
+.cashout{
+    color: #FEFF00;
+    padding: 10px 30px;
+}
+.field{
+    background-color: #FEFF00;
+    border: 1px solid #FEFF00;
+    color: #5A5A60;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    position: relative;
+
+}
+.select-text{
+    color: black;
+    font-weight: 700;
+}
+.select-icon{
+    width: 30px;
+    margin-left: 60px;
+}
+.zoom{
+    position: absolute;
+    top: 220px;
+    left: 238px;
+    width: 30px;
+}
+#hide1{
+    display: none;
+}
+.eye{
+    position: absolute;
+    top: 275px;
+    left: 238px;
+    width: 30px;
+}
+.cal-btn{
+    background-color: #FEFF00;
+    border: 1px solid #FEFF00;
+    color: black;
+    font-weight: 500;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-bottom: 25vh;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #feff00!important;
+    border: 0;
+    font-weight: 700;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #feff00!important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.dropdown-item:hover{
+    background-color: white!important;
+}
